@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.left-form input[type="text"] textarea {
+    width: 100%;
+    border-radius: 5px solid white;
+    padding: 20px;
+}
