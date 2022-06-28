@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Oni-investment</title>
 </head>
@@ -40,73 +45,599 @@
               </div>
             </div>
           </nav>
-          <div class="first-hero-section py-3">
-            <div class="container">
-              <div class="text-start pt-5">
-                <h1 class="text-black display-4 fw-bolder"> ONI COMPANY</h1>
-                <p class="text-black fst-italic fw-bold">"Specialize on Motor Spare Parts such as Japanese Toyota, <br> Nissan, Honda, Mercedes, Chevrolet, Mitsubishi, Hyundai. <br> Also on specialize Silencer, Catalyst, Exhust, Pot etc."</p>
-                <button type="button" class="btn btn-dark">REGISTER TO SHOP ONLINE</button>
-              </div>
+          <div class="first-slider">
+            <div class="container-fluid">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-              </section>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/img01.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1 class="display-4 fw-bolder mb-2"> ONI COMPANY</h1>
+                      <p class="fst-italic fw-bolder">"Specialize on Motor Spare Parts such as Japanese Toyota, <br> Nissan, Honda, Mercedes, Chevrolet, Mitsubishi, Hyundai. <br> Also on specialize Silencer, Catalyst, Exhust, Pot etc."</p>
+                      <button type="button" class="btn btn-light fw-bold">REGISTER TO SHOP ONLINE</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/img02.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1 class="display-5 fw-bolder">COOLING <br> SYSTEM SERVICE <br> <span class="text-primary fw-bolder">$20 OFF*</span></h1>
+                      <p class="fw-bolder">COOLING SYSTEM PRESSURE TEST <br> INSPECTION OF BELTS AND HOSES <br> MACHINE FLUSH COOLING SYSTEM <br> NEW COOLANT</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/img03.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1 class="display-5 fw-bolder">SERVICE, REPAIR <br> AND STORE</h1>
+                      <p class="fw-bolder">AUTO REPAIR IS COMMITTED TO EARNING YOUR <br> TRUST BY PROVIDING THE EXPERTISE, VALUE <br> AND RESPONSIVENESS YOU EXPECT.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
-          <footer class="text-center text-white" style="background-color: white;">
-            <div class="container p-2">
-              <section class="">
-                <div class="row">
-                  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                    <div
-                      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                      data-ripple-color="light">
-                      <img src="images/Audi.jpeg" alt="" width="60%">
+          <div class="repair-service py-5">
+            <div class="container">
+              <div class="row">
+                <div class="head text-center" data-aos="zoom-in" data-aos-duration="1400">
+                  <h3 class="fw-bold">AUTO REPAIR SERVICES</h3>
+                  <P>WE OFFER A VARIETY OF SERVICES TO HELP YOU GET BACK ON THE ROAD AND KEEP YOUR LIFE SAFER</P>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3" data-aos="fade-right" data-aos-duration="1400">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class='bx bx-file-find display-3'></i>
                     </div>
-                  </div>
-                  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                    <div
-                      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                      data-ripple-color="light">
-                      <img src="images/Mazda.png" alt="" width="80%">
-                    </div>
-                  </div>
-                  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                    <div
-                      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                      data-ripple-color="light">
-                      <img src="images/Honda2.png" alt="" width="60%">
-                    </div>
-                  </div>
-                  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                    <div
-                      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                      data-ripple-color="light">
-                      <img src="images/Lexus.png" alt="" width="75%">
-                    </div>
-                  </div>
-                  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                    <div
-                      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                      data-ripple-color="light">
-                      <img src="images/Chevrolet.png" alt="" width="80%">
-                    </div>
-                  </div>
-                  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                    <div
-                      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                      data-ripple-color="light">
-                      <img src="images/Hyundai 2.png" alt="" width="70%">
+                    <div class="col-10">
+                      <h6 class="fw-bold mb-0">OIL CHANGES</h6>
+                      <p>Regularly changing your oil and filter <br> will help the engine work its best.</p>
                     </div>
                   </div>
                 </div>
-              </section>
+                <div class="col-lg-4 col-md-6 my-3" data-aos="fade-right" data-aos-duration="1400">
+                  <div class="row">
+                    <div class="col-2 mt-0">
+                      <i class='bx bx-brightness display-3'></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="fw-bold my-0">BREAKES</h6>
+                      <p>Break Maintainance is crucial to Keeping <br> all your vechicle operating safely</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3" data-aos="fade-right" data-aos-duration="1400">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class='bx bx-shape-square display-3'></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="fw-bold mb-0">TRANSMISSION SERVICE</h6>
+                      <p>A well maintained transmision can <br> save you from problems later in your vechicle's life.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3" data-aos="fade-left" data-aos-duration="1400">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class='bx bx-color display-3' style='color:#0c0b0c' ></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="fw-bold mb-0">TYRES & WHEELS</h6>
+                      <p>Regularly inspect and service your tires <br> to prevent a blowout, a flat, or a costly accident.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3" data-aos="fade-left" data-aos-duration="1400">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class='bx bxs-color display-3' style='color:#0c0b0c' ></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="fw-bold mb-0">A/C</h6>
+                      <p>keep your car cool and increase your <br> gas mileage with Regular AC checks.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3" data-aos="fade-left" data-aos-duration="1400">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class='bx bx-brush-alt bx-flip-vertical display-3' style='color:#0c0b0c' ></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="fw-bold mb-0">ENGINE PERFORMANCE</h6>
+                      <p>Keep a well-tuned engine for maximum performance.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="text-center p-3" style="background-color: black;">
-              <p>© 2022 Copyright: Nnaemeka Wisdom</p>
+          </div>
+          <div class="second-hero my-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12" data-aos="zoom-in-right" data-aos-duration="1400">
+                  <img src="images/mechanical-eng.webp" alt="" width="100%" height="100%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 bg-secondary text-white" data-aos="zoom-in-left" data-aos-duration="1400">
+                  <div>
+                    <h4 class="fw-bold">Maintainance</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum illum nam voluptate maiores eius qui quibusdam, fugit rem tempora, explicabo ab veritatis assumenda consequatur reiciendis? Ratione earum cum error?</p>
+                  </div>
+                  <div>
+                    <h4 class="fw-bold">Repair</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quos ea nesciunt nobis deleniti quaerat velit omnis distinctio quia sed maiores eligendi blanditiis, rerum mollitia illum sequi asperiores voluptate sint.</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-light btn-inline- px-4 fw-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="package">
+            <div class="container py-5 px-5">
+              <div class="row">
+                <div class="text-center mb-5">
+                  <h1 class="fw-bold">MAINTAINANCE SERVICE PACKAGES</h1>
+                  <P>VIEW PRICING FOR ADDITIONAL CAR REPAIR SERVICE PACKAGES</P>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="row">
+                    <h4 class="text-primary fw-bold mb-4">FREE SERVICES</h4>
+                    <div class="col-8">
+                      <p>Wiper Blade Installation</p>
+                      <p>Check Engine Light Code Retrieval</p>
+                      <p>Air Filter Replacement Installment</p>
+                      <p>Starting and Changing System Evaluaion</p>
+                    </div>
+                    <div class="col-4 text-end">
+                      <div class="text-primary">
+                        <p>FREE</p>
+                        <p>FREE</p>
+                        <p>FREE</p>
+                        <p>FREE</p>
+                      </div>
+                    </div>
+                    <div class="text-secondary border-bottom border-secondary my-2"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="row mb-4">
+                    <h4 class="text-primary fw-bold mb-4">FLUID SERVICES</h4>
+                    <div class="col-8">
+                      <p>Engine Flush Service</p>
+                      <p>Transmission Fluid Service</p>
+                      <p>Break Fluid Exchange</p>
+                      <p>Coolant Drain and Fill</p>
+                      <p>Power Steering Flush</p>
+                    </div>
+                    <div class="col-4 text-end">
+                      <div class="text-primary">
+                        <p>from $49.99</p>
+                        <p>from $9.99</p>
+                        <p>from $15.00</p>
+                        <p>from $79.99</p>
+                        <p>from $58.99</p>
+                      </div>
+                    </div>
+                    <div class="text-secondary border-bottom border-secondary my-2"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="row mb-4">
+                    <h4 class="text-primary fw-bold mb-4">MAINTAINANCE SERVICES</h4>
+                    <div class="col-8">
+                      <p>Headlight Restoration</p>
+                      <p>Small Bulb Installation</p>
+                      <p>Cabin Air Filter Installation</p>
+                      <p>Spring Maintainance Package</p>
+                    </div>
+                    <div class="col-4 text-end">
+                      <div class="text-primary">
+                        <p>from $49.99</p>
+                        <p>from $9.99</p>
+                        <p>from $15.00</p>
+                        <p>from $79.99</p>
+                      </div>
+                    </div>
+                    <div class="text-secondary border-bottom border-secondary my-2"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="row mb-4">
+                    <h4 class="text-primary fw-bold mb-4">TUNE UPS</h4>
+                    <div class="col-8">
+                      <p>Spring Maintainance Package</p>
+                      <p>Summer Maintainance Package</p>
+                      <p>Winter Maintainance Package/p>
+                      <p>Smoke Test Diagnostic Service</p>
+                      <p>Cranks No Start Diagnostic Service</p>
+                    </div>
+                    <div class="col-4 text-end">
+                      <div class="text-primary">
+                        <p>from $49.99</p>
+                        <p>from $9.99</p>
+                        <p>from $15.00</p>
+                        <p>from $79.99</p>
+                        <p>from $58.99</p>
+                      </div>
+                    </div>
+                    <div class="text-secondary border-bottom border-secondary my-2"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12  mb-5" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="row mb-4">
+                    <h4 class="text-primary fw-bold mb-4">SYSTEM EVALUATION</h4>
+                    <div class="col-8">
+                      <p>A/C System Leak Evaluaion</p>
+                      <p>Coolant System Evaluaion</p>
+                      <p>Steering and Suspension System Evaluaion</p>
+                    </div>
+                    <div class="col-4 text-end">
+                      <div class="text-primary">
+                        <p>from $49.99</p>
+                        <p>from $9.99</p>
+                        <p>from $15.00</p>
+                      </div>
+                    </div>
+                    <div class="text-secondary border-bottom border-secondary my-2"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="row mb-4">
+                    <h4 class="text-primary fw-bold mb-4">COOLANT SYSTEM</h4>
+                    <div class="col-8">
+                      <p>Engine Cooling System Check</p>
+                      <p>Drain & Fill Radiator</p>
+                    </div>
+                    <div class="col-4 text-end">
+                      <div class="text-primary">
+                        <p>from $49.99</p>
+                        <p>from $9.99</p>
+                      </div>
+                    </div>
+                    <div class="text-secondary border-bottom border-secondary my-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-outline-light btn-inline-primary text-center text-primary p-3 fw-bold">MAKE AN APPOINTMENT</button>
+              </div>
+            </div>
+          </div>
+          <div class="third-hero my-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 bg-dark br-5 text-white py-2 my-3" data-aos="flip-left" data-aos-duration="1400">
+                  <h6 class="fw-bolder">Why Choose us?</h6>
+                  <h4 class="fw-bolder mb-4">Here Is Some Reason <br> For Keeping With Us</h4>
+                  <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>Top Company</h6>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  <div>
+                    <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>Expert Maker</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>Quality Service</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 my-3" data-aos="zoom-in" data-aos-duration="1400">
+                  <img src="images/Engineer.jpeg" alt="" width="100%" height="100%">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 bg-dark text-white py-2 my-3" data-aos="flip-right" data-aos-duration="1400">
+                  <div>
+                    <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>Best Equipment</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>100% Satisfaction</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>2 Monthly Services</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold"><i class='bx bx-check-double fs-4 me-1 fw-bold'></i>Trusted & Reliable</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-hero my-5 my-4" data-aos="zoom-in-down" data-aos-duration="1000">
+            <div class="container bg-dark text-white py-5">
+              <div class="row">
+                <div class="col-lg-8 col-md-6 col-12 px-5 my-4">
+                  <h3 class="fw-bold mb-3">Engine Services</h3>
+                  <div class="row">
+                    <div class="col-6">
+                      <p><i class='bx bx-check me-1 fs-5'></i>Auto Mechanic</p>
+                      <p><i class='bx bx-check me-1 fs-5'></i>Car Ramp</p>
+                      <p><i class='bx bx-check me-1 fs-5'></i>Italian Tuneup</p>
+                      <p><i class='bx bx-check me-1 fs-5'></i>Auto Mechanic</p>       
+                    </div>
+                    <div class="col-6">
+                      <p><i class='bx bx-check me-1 fs-5'></i>Automobile Repair Shop</p>
+                      <p><i class='bx bx-check me-1 fs-5'></i>Engine Tuning</p>
+                      <p><i class='bx bx-check me-1 fs-5'></i>Mechanical Enginering</p>
+                      <p><i class='bx bx-check me-1 fs-5'></i>Exhust gas Analyzer</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-outline-light btn-inline mt-4 px-4 fw-bold">Services</button>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 my-4">
+                  <h3 class="fw-bold mb-3">Engine Services</h3>
+                  <p><i class='bx bx-check me-1 fs-5'></i>Auto Mechanic</p>
+                  <p><i class='bx bx-check me-1 fs-5'></i>Car Ramp</p>
+                  <p><i class='bx bx-check me-1 fs-5'></i>Italian Tuneup</p>
+                  <p><i class='bx bx-check me-1 fs-5'></i>Auto Mechanic</p>
+                  <div>
+                    <button type="button" class="btn btn-outline-light btn-inline mt-4 px-4 fw-bold">Services</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="imags-section" data-aos="zoom-out-up" data-aos-duration="1000">
+            <div class="container my-2">
+              <img src="images/Meaningful.jpg" alt="" width="100%">
+            </div>
+          </div>
+          <div class="choice-section">
+            <div class="container py-5 px-2">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down"
+                data-aos-duration="2000">
+                  <div class="py-2 mb-4 bg-secondary bg-opacity-8 border border-secondary border-start-0 rounded-end">
+                    <h6 class="text-white text-center">SELECT YOUR VECHICLE</h6>
+                  </div>
+                  <select class="form-select mb-3" aria-label="">
+                    <option selected>Choose Year</option>
+                    <!-- <option value="2013"></option>
+                    <option value="2013"></option>
+                    <option value="2013"></option>
+                    <option value="2013"></option> -->
+                  </select>
+                  <select class="form-select mb-3" aria-label="">
+                    <option selected>Choose Make</option>
+                    <!-- <option value="2013"></option>
+                    <option value="2013"></option>
+                    <option value="2013"></option>
+                    <option value="2013"></option> -->
+                  </select>
+                  <select class="form-select mb-3" aria-label="">
+                    <option selected>Choose Model</option>
+                    <!-- <option value="2013"></option>
+                    <option value="2013"></option>
+                    <option value="2013"></option>
+                    <option value="2013"></option> -->
+                  </select>
+                  <div class="d-grid gap-2 mb-5">
+                    <button class="btn btn-dark text-white text-center" type="button">SELECT</button>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up"
+                data-aos-duration="2000">
+                  <div class="py-2 mb-2 bg-secondary bg-opacity-8 border border-secondary border-start-0 rounded-end">
+                    <h6 class="text-white text-center">SEARCH BY VIM</h6>
+                  </div>
+                  <div class="icon-box text-center display-1 fw-bold">
+                    <i class='bx bx-search'></i>
+                    <h6>Ensure Part Fitment</h6>
+                  </div>
+                  <input type="text" id="" placeholder="Enter VIN Number" class="w-100 mb-3 border-dark rounded p-1">
+                  <div class="d-grid gap-2 mb-5">
+                    <button class="btn btn-dark text-white text-center" type="button">FIND VECHICLE</button>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down"
+                data-aos-duration="2000">
+                  <div class="py-2 mb-2 bg-secondary bg-opacity-8 border border-secondary border-start-0 rounded-end">
+                    <h6 class="text-white text-center">SEARCH BY KEYWORD</h6>
+                  </div>
+                  <div class="icon-box text-center display-1 fw-bold">
+                    <i class='bx bx-check-square' ></i>
+                    <h6>Fastest Way to Search</h6>
+                  </div>
+                  <input type="text" id="" placeholder="Parts Number or Keywords" class="w-100 mb-3 border-dark rounded p-1">
+                  <div class="d-grid gap-2 mb-5">
+                    <button class="btn btn-dark text-white text-center" type="button">FIND PARTS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>         
+          <div class="second-hero-section my-2">
+            <div class="container">
+              <div class="genuine-section">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12" data-aos="zoom-in-right" data-aos-duration="1000">
+                    <H4 class="fw-bold fs-4 my-3">GENUINE PARTS UNBEATABLE PRICES.</H4>
+                    <P>ONI Auto Parts Inc. offers new Genuine and london used replacement auto parts for all makes and models of vehicles. We take pride in providing first class customer service and top quality auto Parts. Our competitives prices makes us one the top auto parts distributors within the market and after you see our prices, you wont ever step foot inside a dealership again.</P>
+                    <p>Our extensive user friendly online parts and accessories catalog makes it fast and easy to have your vehicle on the road in no time. We are confident that you will find all the parts and accessories you need and if you dont, we will make sure you do. Our excellent customer service is standing by to answer all your questions and help you place an order! ONI Auto Parts Inc. ships all parts to the Nigerian and worldwide.</p>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <img src="images/Glk.png" alt="" width="100%" data-aos="zoom-in-left" data-aos-duration="1000">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="maintain-section">
+            <div class="container">
+              <div class="row">
+                <div class="head text-center mb-4">
+                  <h4 class="fw-bold">LEARN ABOUT REPAIR & MAINTAINANCE</h4>
+                  <P>OUR EXPERTS ANSWERS THE MOST FREQUENTLY ASKED QUESTIONS ABOUT OUR SERVICES</P>
+                </div>
+                <div class="col-lg-4 col-6 col-12" data-aos="zoom-in-right" data-aos-duration="1800">
+                  <img src="images/Mech1.jpg" alt="" width="100%" height="50%">
+                  <h5 class="my-3 text-primary fw-bold">EXPENSIVE OIL CHANGES ARE HERE TO STAY</h5>
+                  <P class="mb-5">Oil changes may be more expensive with the required OW-20 weight Oil compared to conventional oil, but only having to service once or twice a Year keeps annual costa to nearly a wash.</P>
+                </div>
+                <div class="col-lg-4 col-6 col-12" data-aos="zoom-in-right" data-aos-duration="1800">
+                  <img src="images/Mech2.jpg" alt="" width="100%" height="50%">
+                  <h5 class="my-3 text-primary fw-bold">WHAT'S INCLUDED IN A TUNEUP</h5>
+                  <P class="mb-5">Actually, there is no such thing as a tuneup in the traditional sense of replacing parts to bring the ignition and fuel systems up to specs for maximum performance and efficiency...</P>
+                </div>
+                <div class="col-lg-4 col-6 col-12" data-aos="zoom-in-right" data-aos-duration="1800">
+                  <img src="images/Mech3.jpg" alt="" width="100%" height="50%">
+                  <h5 class="my-3 text-primary fw-bold">DO YOU REALLY NEED TO CHANGE YOUR OIL EVERY 3,000 MILES?</h5>
+                  <P class="mb-5">No, you dont, According to every auto manufacturer,n we have talked to. The main advocates of the 3,000-mile oil change schedule are those who would profit by it...</P>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimony-section py-5">
+            <div class="container">
+              <div class="text-center pb-5">
+                <h2 class="fw-bolder"><span><i class='bx bxs-quote-left' style='color:#1a0404'></i></span> TESTIMONIALS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut deleniti, maiores cupiditate dolorum fuga mollitia! Dolor omnis voluptas eaque maiores reiciendis suscipit vel amet dolorum. Officia provident temporibus ullam voluptatum.</p>
+              </div>
+              <div class="slider-section">
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="testimony-box">
+                        <div class="testimony-side">
+                          <p>Thank you very much. I'm impressed with your service. I have already told my friends about your Company and your quick responsive. Thanks once again!</p>
+                        <div class="testimony">
+                          <img src="images/Arit.jpg" alt="" width="100" height="100" class="img-fluid">
+                          <h6 class="fw-bold my-2">Amana Arit</h6>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimony-box">
+                        <div class="testimony-side">
+                          <p>I Would just like to say thank you for your prompt and effective service, for your friendly and professional support staff! I will recommend your expert company o all my friends.</p>
+                        <div class="testimony">
+                          <img src="images/BB.jpg" alt="" width="100" height="100" class="img-fluid">
+                          <h6 class="fw-bold my-2">Big Benz</h6>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimony-box">
+                        <div class="testimony-side text-center">
+                          <p>Wow, I'm so happy with your service. You managed to exceed my expectations! You guys are very efficient and i will refer more people to your company!</p>
+                        <div class="testimony">
+                          <img src="images/Ada.jpg" alt="" width="100" height="100" class="img-fluid">
+                          <h6 class="fw-bold my-2">Ada Ikemviola</h6>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="logo-section">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-2 col-md-4 mb-3">
+                  <div
+                    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <img src="images/Audi.jpeg" alt="" width="60%">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-3">
+                  <div
+                    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <img src="images/Mazda.png" alt="" width="80%">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-3">
+                  <div
+                    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <img src="images/Honda2.png" alt="" width="60%">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-3">
+                  <div
+                    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <img src="images/Lexus.png" alt="" width="70%">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-3">
+                  <div
+                    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <img src="images/Chevrolet.png" alt="" width="70%">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-3">
+                  <div
+                    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <img src="images/Hyundai 2.png" alt="" width="70%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="text-center text-white py-5" style="background-color: black;">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <p>© 2022 Copyright: All Right Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <p class="fw-bold"><span class="text-primary"> Designed by:</span> Nnaemeka Wisdom</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <i class='bx bxl-facebook-circle text-primary fw-bold fs-2 '></i>
+                  <i class='bx bxl-twitter text-primary fw-bold fs-2 '></i>
+                  <i class='bx bxl-instagram text-primary fw-bold fs-2'></i>
+                  <i class='bx bxl-whatsapp text-primary fw-bold fs-2 '></i>
+                </div>
+              </div>
             </div>
           </footer>
     </div>
 
 
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

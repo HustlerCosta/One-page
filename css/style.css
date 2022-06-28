@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-.first-hero-section {
-    background: url(../images/4matic.webp) no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+body {
+    font-family: sans-serif;
+}
+
+.package .container {
+    background-color: #232a33;
+    color: white;
+}
+
+.testimony img {
+    border-radius: 50%;
 }

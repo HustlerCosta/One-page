@@ -1,34 +1,10 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+    background-color: #232a33;
     color: white;
 }
-
-#about-section .container {
-    display: flex;
-    padding: 2rem 5rem;
-}
-
-.container .about-left {
-    width: 50%;
-    padding-top: 30px;
-}
-
-.container .about-right {
-    width: 50%;
-}
-
-.container .about-right h2 {
-    margin-bottom: 10px;
-}
-
-.container .about-right p {
-    line-height: 1.5;
-}
-
-.container .about-right */

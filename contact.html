@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/contact.css">
     <title>Oni-investment-contact</title>
@@ -50,10 +51,36 @@
          </div>
          <div class="container">
            <div class="row text-center">
-            <div class="col-md-4 pt-4 text-warning fw-bold">(+2348032403023)</div>
-            <div class="col-md-4 pt-4 text-warning fw-bold"><a href="#"></a> coasta2016@gmail.com</div>
+            <div class="col-md-4 pt-4 text-warning fw-bold">
+              <div class="row">
+                <div class="col-1">
+                  <i class='bx bx-phone fs-3 mb-0'></i>
+                </div>
+                <div class="col-6">
+                  <h5 class="">(+2348032403023)</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 text-warning fw-bold">
+              <div class="row">
+                <div class="col-1">
+                  <i class='bx bxs-envelope fs-3'></i>
+                </div>
+                <div class="col-5">
+                  <h5 class="fs-5"><a href="#"></a>oni@gmail.com</h5>
+                </div>
+              </div>
+            </div>
             <div class="col-md-4 text-warning fw-bold">
-             <p class="">HEAD OFFICE <br> 187, Ladipo Market, Mushin, Lagos-Nigeria.</p>
+              <div class="row">
+                <div class="col-1 fs-2">
+                  <i class='bx bxs-location-plus text-warning' style='color:rgb(224, 150, 12)' ></i>
+                </div>
+                <div class="col-11">
+                  <h6 class="mb-0">HEAD OFFICE</h6>
+                  <h6>187, Ladipo Market, Mushin, Lagos-Nigeria.</h6>
+                </div>
+              </div>
             </div>
            </div>
          </div>
@@ -62,24 +89,55 @@
            <form action="">
              <div class="row my-2">
                <div class="col-12 col-md-6 px-1">
-                 <input type="text" class="form-control border-dark fs-5 py-3 mb-2" name="" id="" placeholder="Your Name*">
-                 <input type="text" class="form-control border-dark fs-5 py-3 mb-2" name="" id="" placeholder="Your Email*">
-                 <input type="text" class="form-control border-dark fs-5 py-3" name="" id="" placeholder="Company Name*">
+                 <label for="Name" class="fw-bold">Name (Required)</label>
+                 <input type="text" class="form-control border-dark fs-5 py-2 mb-3" name="Name" id="Name" placeholder="Name">
+
+                 <label for="Email" class="fw-bold">E-mail (Required)</label>
+                 <input type="text" class="form-control border-dark fs-5 py-2 mb-3" name="" id="" placeholder="Email">
+                 
+                 <label for="phone-number" class="fw-bold">Phone Number</label>
+                 <input type="text" class="form-control border-dark fs-5 py-2 mb-3" name="" id="" placeholder="Phone Number">
+                 
+                 <label for="number" class="fw-bold">Order Number (If Applicable)</label>
+                 <input type="text" class="form-control border-dark fs-5 py-2 mb-3" name="" id="" placeholder="Order Number">
+                 
+                 <label for="tel" class="fw-bold">VIN (If Applicable)</label>
+                 <input type="text" class="form-control border-dark fs-5 py-2 mb-3" name="" id="" placeholder="VIN">
+
+                 <label for="text" class="fw-bold">Company's Name</label>
+                 <input type="text" class="form-control border-dark fs-5 py-2 mb-3" name="" id="" placeholder="Name">
+
+                 <label for="text" class="fw-bold">Reason</label>
+                 <input type="text" class="form-control border-dark fs-5 py-4 mb-4" name="" id="" placeholder="State Your Reasons">
                </div>
-               <div class="col-12 col-md px-1">
-                 <textarea name="" id="" class="w-100 h-100 border-dark rounded" placeholder="Your Messages"></textarea>
+               <div class="col-12 col-md px-1 mb-5">
+                <label for="text" class="fw-bold">Message (Required)</label>
+                 <textarea name="" id="" class="w-100 h-100 border-dark rounded fs-5" placeholder="Your Messages"></textarea>
                </div>
              </div>
              <div class="row px-1">
-               <button type="submit" class="btn-warning w-100 h-100 py-3 text-uppercase fw-bold">Send Message</button>
+              <button type="submit" class="btn-warning w-100 h-100 py-3 text-uppercase fw-bold"><i class='bx bxl-telegram text-black fw-bolder fs-4 me-1 mb-0'></i>Send Message</button>
              </div>
            </form>
          </div>
-         <footer class="text-center text-white" style="background-color: white;">
-          <div class="text-center p-3" style="background-color: black;">
-            <p>© 2022 Copyright: Nnaemeka Wisdom</p>
+         <footer class="text-center text-white py-5" style="background-color: black;">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <p>© 2022 Copyright: All Right Reserved</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <p class="fw-bold"><span class="text-primary"> Designed by:</span> Nnaemeka Wisdom</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <i class='bx bxl-facebook-circle text-primary fw-bold fs-2 '></i>
+                <i class='bx bxl-twitter text-primary fw-bold fs-2 '></i>
+                <i class='bx bxl-instagram text-primary fw-bold fs-2'></i>
+                <i class='bx bxl-whatsapp text-primary fw-bold fs-2 '></i>
+              </div>
+            </div>
           </div>
-        </footer>
+         </footer>
     </div>
     
     <script src="js/bootstrap.min.js"></script>
