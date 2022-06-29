@@ -3,16 +3,16 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
+/* 
 body {
     font-family: sans-serif;
-}
+} */
 
-.package .container {
+#package .container {
     background-color: #232a33;
     color: white;
 }
 
-.testimony img {
+#testimony img {
     border-radius: 50%;
 }
