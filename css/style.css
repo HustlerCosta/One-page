@@ -3,10 +3,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
-/* 
-body {
+ 
+body,html {
     font-family: sans-serif;
-} */
+    overflow-x: hidden !important;
+} 
 
 #package .container {
     background-color: #232a33;
